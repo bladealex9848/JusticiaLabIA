@@ -46,6 +46,12 @@ client = openai
 
 # Presentación del agente
 st.title("Bienvenido a JusticiaLabIA 🤖💡")
+
+st.write("""
+    [![ver código fuente](https://img.shields.io/badge/Repositorio%20GitHub-gris?logo=github)](https://github.com/bladealex9848/JusticiaLabIA)
+    ![Visitantes](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fjusticialab.streamlit.app&label=Visitantes&labelColor=%235d5d5d&countColor=%231e7ebf&style=flat)
+    """)
+
 st.markdown("""
 ### ¡Hola! Soy tu asistente para el 1er Concurso de Innovación de la Rama Judicial 2024
 
